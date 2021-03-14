@@ -1,12 +1,35 @@
----
-title: Happy Paws API MVP Scope
-author: M. Tucker Bradford
-extensions:
-  preset: gfm
+<!DOCTYPE html>
+<html>
 
----
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Paws API MVP Scope</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
-<h1 id="happy-paws-api-mvp-scope">Happy Paws API MVP Scope</h1>
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#happy-paws-api-mvp-scope">Happy Paws API MVP Scope</a>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#data-model">Data Model</a></li>
+<li><a href="#frontend">Frontend</a></li>
+<li><a href="#api">API</a></li>
+<li><a href="#out-of-scope">Out of Scope</a></li>
+<li><a href="#appendix-a">Appendix A</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="happy-paws-api-mvp-scope">Happy Paws API MVP Scope</h1>
 <h2 id="overview">Overview</h2>
 <p>Happy Paws has committed to providing an API for managing internal promotional campaigns. This minimum viable product (MVP) will detail the core needs of that product, and is designed to adapt and scale with the customer’s growth. Certain design decisions have been made to minimize the initial investment in the product, while avoiding potential future scalability issues, and other design snares.</p>
 <p>We will use the Ruby on Rails framework, as it is the fastest and most flexible prototyping framework available today. Wherever practical we will leverage in house libraries, but in certain areas (such as authentication and authorization) we will leverage gems (external libraries) to speed up development and enhance performance and security.</p>
@@ -149,3 +172,8 @@ separately.<br>
 <h2 id="appendix-a">Appendix A</h2>
 <p><img src="https://user-images.githubusercontent.com/63799/111077483-5424fa80-84c7-11eb-9eff-4253a3025640.png" alt="happy paws uml diagram"></p>
 
+    </div>
+  </div>
+</body>
+
+</html>
